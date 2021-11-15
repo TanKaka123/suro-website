@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - SURO</title>
+    <link rel="stylesheet" href="logIn.css">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<header> 
+  <div  class="headers">
+      <a href="/"> <img src="../../image/icon.png" alt="logo" width="120px" height="80px"  style="margin-right:25rem ;"></a>
+      <a href="../product/product.html" class="header-items"> PRODUCT</a>
+      <a href="../customs/customs.html" class="header-items"> CUSTOMS</a>
+      <a href="../about/about.html" class="header-items">ABOUT</a>
+      <a href="../blog/blog.html" class="header-items"> BLOG</a>
+      <a href="login.html" class="button-login" > LOGIN</a>
+  </div>
+</header>
+<body>
+    <div class="main">
+      
+        <form action="" method="POST" class="form" id="form-1">
+          <h3 class="heading">Đăng Ký Thành Viên</h3>
+          <p class="desc"> Chào Mừng Bạn Đến Với Chúng Tôi ❤️</p>
+      
+          <div class="spacer"></div>
+      
+          <div class="form-group">
+            <label for="fullname" class="form-label">Họ Và Tên</label>
+            <input id="fullname" name="fullname" type="text" placeholder="VD: Sơn Đặng" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="password" class="form-label">Mật Khẩu</label>
+            <input id="password" name="password" type="password" placeholder="nhập mật khẩu" 
+            class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <div class="form-group">
+            <label for="password_confirmation" class="form-label">Xác Nhận Mật Khẩu</label>
+            <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+            <span class="form-message"></span>
+          </div>
+      
+          <button class="form-submit">Đăng Ký </button> </form>
+      
+      </div>
+      
+      <script src="logIn.js"></script>
+      <script>
+        // mong muoon
+          Validator({
+            form:'#form-1',
+            rules:[
+              Validator.isRequired('#fullname'),
+              Validator.isEmail('#email')
+            ]
+          })
+          ValidatePassword({
+            form:'#form-1', 
+            password: '#password',
+            passwordComfirm : '#password_confirmation',
+          })
+          
+      </script>
+</body>
+<footer style="margin-top : 80px;margin-bottom : 5rem;">
+  <div style="display: flex;">
+      <div >
+          <a href="/"> <img src="../../image/icon.png" alt="logo" width="120px" height="80px"  style=" margin-left: 3rem;"></a>
+          <p style="margin-left: 5rem; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: medium;">
+            Nền tảng giúp sinh viên tìm được các dự án <br> giúp trao dồi kĩ nâng thực tiễn
+         </p>
+      </div>
+      <div style=" margin-top: 3rem; margin-left: 12rem;">
+          <p  style="text-decoration: none; font-weight: 900;font-size: 22px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black;">
+              TÀI NGUYÊN
+          </p>
+          <ul style="list-style-type: none; text-decoration: none;">
+              <li>
+                  <a style=" color: black;" href="#"  >hướng dẫn sử dụng </a>
+              </li>
+              <li>
+                  <a style=" color: black;"  href="#"  >hướng dẫn xem thông tin </a>
+              </li>
+              <li>
+                  <a style=" color: black;" href="#"  >đăng kí</a>
+              </li>
+          </ul>
+         
+
+      </div>
+      <div style=" margin-top: 3rem; margin-left: 8rem;">
+          <p  style="text-decoration: none; font-weight: 900;font-size: 22px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black;">
+              SURO
+          </p>
+          <ul style="list-style-type: none; text-decoration: none;">
+              <li>
+                  <a style=" color: black;" href="#"  >Xem về chúng tôi </a>
+              </li>
+              <li>
+                  <a style=" color: black;"  href="#"  >Mong muốn đồng hành</a>
+              </li>
+              
+          </ul>
+         
+
+      </div>
+  </div>
+</footer>
+</html>
