@@ -1,0 +1,31 @@
+.blog-frame{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0px 4% 0px 4%;
+}
+.blog-simple{
+    width: 26%;
+    margin-right: 1%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    box-sizing: inherit;
+    margin-bottom: 10px;
+    box-sizing: inherit;
+    line-height: 1.6em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.img-blog{
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+.title-blog{
+    margin: 8%; text-align: center;
+    font-size: 25px;font-weight: 600;
+}
+.author-day-update{
+    color: gray;
+    text-align: center;
+    margin: 5%;
+}

@@ -3,14 +3,14 @@
 }
 .header-items{
     color:black;
-    text-decoration: none; 
+    text-decoration: none;
     padding: 25px;
     font-weight: 900;
     font-size: 20px;
 }
 .button-login{
     color:white;
-    background-color: #FF7723; 
+    background-color: #FF7723;
     border: hidden;
     font-weight: 550;
     width: 150px;
@@ -52,20 +52,20 @@
 .provide-info
 {
     font-size: 40px;
-    margin-left: 60px; 
-    text-align: center; 
-    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-left: 60px;
+    text-align: center;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:600 ;
     text-transform: uppercase;
 }
 .intro
 {
-    background-color: #FF7723; 
-    width: 100%; 
-    padding: 4rem; 
+    background-color: #FF7723;
+    width: 100%;
+    padding: 4rem;
     text-align: center;
     color: white;
-    font-size: 38px; 
+    font-size: 38px;
     font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
 }
@@ -83,10 +83,10 @@
     margin-bottom: 15px;
     display: inline-block;
     font-size:70px;
-    font-weight: 900;   
+    font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-   
+
 }
 .dicripts{
     text-align: center;
@@ -95,21 +95,21 @@
     font-weight: 50px;
 }
 .request-demo{
-   
+
     margin-left: 540px;
 }
 .font-footer{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: medium;
 }
 .changButton{
-    color:white; 
-    background-color: rgb(194, 30, 30);  
-    border: hidden; 
-    font-weight: 550; 
-    width: 180px; 
-    height: 50px; 
-    border-radius: 7px; 
-    padding: 10px; 
+    color:white;
+    background-color: rgb(194, 30, 30);
+    border: hidden;
+    font-weight: 550;
+    width: 180px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 10px;
     cursor: pointer
 }
 .colorText{
@@ -121,7 +121,23 @@
 .intro-footer
 {
     background-color: #FF7723;
-    width: 100%; 
-    
+    width: 100%;
     display: flex;
+}
+.discrips-footer{
+    margin-left: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.title-footer{
+    padding-left: 4rem ;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.outer-footer{
+    margin-top : 80px;
+    margin-bottom : 5rem;
 }
